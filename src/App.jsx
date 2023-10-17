@@ -1,20 +1,12 @@
 import {  } from 'react'
-import TextSize from './Components/TextSize'
-import TextPerson from './Components/TextPerson'
-import TextColor from './Components/TextColor'
-import TextBackground from './Components/TextBackground'
-import Imagens from './Components/Imagens'
+import Layout from './Pages/Layout'
 
 function App() {
 
   return (
     <>
       <div className='container'>
-        <TextSize />
-        <TextPerson />
-        <TextColor />
-        <TextBackground />
-        <Imagens />
+        <Layout />
       </div>
     </>
   )
